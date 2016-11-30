@@ -82,6 +82,13 @@
         </div>
       </div>
 
+<<<<<<< HEAD
+=======
+      <p>{{albumsIndexCtrl.newAlbum}}</p>
+
+      <input type="text" class="form-control" ng-model="searchText" placeholder="Search Albums">
+      <div ng-repeat="album in albumsIndexCtrl.albums | orderBy: 'name' | filter: searchText" class="row">
+>>>>>>> fae59e1dc8b10ca043e894bd7fc30706efbc87b3
 
       <input type="text" class="form-control" ng-model="searchText" placeholder="Search Albums">
       <div ng-repeat="album in albumsIndexCtrl.albums | orderBy: 'name' | filter: searchText" class="row">
